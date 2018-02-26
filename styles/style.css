@@ -1,0 +1,190 @@
+header {
+  width: 70em;
+  margin: 0 auto;
+  background-image: url(../images/wp1.jpg);
+  padding: 30px 30px 50px 30px;
+}
+html {
+  background-color:	#162d47;
+}
+
+.opening {
+  background-color: rgba(60, 80, 100, 0.5);
+}
+
+.opening {
+  font-family: cursive;
+  font-size: 3em;
+  color: grey;
+  text-shadow: 5px 4px black;
+  text-align: center;
+}
+
+img {
+  display: block;
+  border: 2px solid;
+  margin: 0 auto;
+  width: 15em;
+  height: 20em;
+}
+
+.quote {
+  font-family: Quicksand;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+.quoteby {
+  font-family: Quicksand;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.des {
+  font-family: Quicksand;
+  font-size: 18px;
+  color: #c9ada7;
+  text-shadow: 2px 2px black;
+  margin: 1;
+  text-align: center;
+}
+nav li{
+  margin-right: 15px;
+  overflow: hidden;
+  display: inline;
+  font-size: 2em;
+  line-height: 50px;
+  overflow: hidden;
+  padding: 22px;
+}
+
+nav {
+  background-color: #666;
+}
+
+li:hover {
+    background-color: white;
+}
+
+header {
+  display: grid;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+article{
+  margin: 1rem 0;
+}
+
+@supports (display:grid) {
+  main {
+    max-width: 9000px;
+    margin: 1rem 1;
+  }
+article {
+  margin: 50px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-gap: 1rem;
+}
+
+.pro {
+  display: flex;;
+  flex-flow: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.p {
+  margin: 1rem 1rem 0;
+}
+
+.pro > img{
+  order: -1;
+  align-self: center;
+  background-image: url(../images/m1.jpg);
+}
+
+#name, #surname, #message {
+  border-radius: 5px;
+  width : 50%;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+#name, #surname {
+  height: 2.5em
+}
+textarea {
+  vertical-align: top;
+}
+
+iframe {
+  float:right;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navf {
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#subbut{
+  background-color: #162d47);
+  width: 60px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#subbut:hover {
+  color: #FFF;
+  background: #900;
+}
+
+#userbutton{
+  background-color: rgb(60, 80, 100);
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#userbutton:hover{
+  background-color: #162d47;
+  cursor: pointer
+}
+
+.creater {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.c {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+footer {
+ width: 70em;
+ margin: 0 auto;
+ background-color: grey;
+ padding: 10px 110px 10px 110px;
+}
